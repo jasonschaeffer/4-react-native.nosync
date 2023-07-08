@@ -33,3 +33,4 @@ const DirectoryScreen = ({ navigation }) => {
 };
 
 export default DirectoryScreen;
+``;
