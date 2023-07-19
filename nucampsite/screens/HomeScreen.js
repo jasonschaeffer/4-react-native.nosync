@@ -11,7 +11,6 @@ const FeaturedItem = (props) => {
     if (props.isLoading) {
         return <Loading />;
     }
-
     if (props.errMess) {
         return (
             <View>
@@ -19,7 +18,6 @@ const FeaturedItem = (props) => {
             </View>
         );
     }
-
     if (item) {
         return (
             <Card containerStyle={{ padding: 0 }}>
